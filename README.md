@@ -1,64 +1,35 @@
-\# ML API with FastAPI \& Docker 🚀
+# Features
+- FastAPI backend
+- Docker containerization
+- ML model prediction endpoint
 
+##  How to Run
 
-
-\## 📌 Project Overview
-
-This project is a machine learning API built using FastAPI and Docker.
-
-
-
-\##  Features
-
-\- FastAPI backend
-
-\- Docker containerization
-
-\- ML model prediction endpoint
-
-
-
-\## 🚀 How to Run
-
-
-
-\### Build Docker Image
-
+### Build Docker Image
 docker build -t ml-api .
 
-
-
-\### Run Container
-
+### Run Container
 docker run -p 8000:8000 ml-api
 
-
-
-\### Access API
-
+### Access API
 http://localhost:8000/docs
 
-
-
-\## 📥 Sample Input
-
+##  Sample Input
 POST /predict
 
-
-
 {
-
-&#x20; "features": \[5]
-
+  "features": [5]
 }
 
-
-
-\## 📤 Output
-
+##  Output
 {
-
-&#x20; "prediction": \[50]
-
+  "prediction": [50]
 }
+
+##  Live API
+https://mlops-exp-5.onrender.com/docs
+
+
+
+
 
